@@ -19,12 +19,7 @@ class ChatState extends State<Chats>{
           children: <Widget>[
             new Divider(height: 10.0,),
             new ListTile(
-              // leading: new CircleAvatar(
-              //   foregroundColor: Colors.grey,
-              //   backgroundColor: Colors.blue,
-                
-                
-              // ),
+              
               leading: new Image.asset(
                       'assets/images/1.jpg',
                       width: 50,
